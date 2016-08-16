@@ -1,0 +1,14 @@
+{
+  "name": "dompack-slideshow",
+  "version": "0.0.1",
+  "description": "Dompack Slideshow",
+  "main": "src/index.es",
+  "scripts": {
+    "test": "echo \"Not yet available\" && exit 1"
+  },
+  "author": "B-Lex IT B.V.",
+  "license": "MIT",
+  "peerDependencies": {
+    "dompack": "0.0.1"
+  }
+}
