@@ -1,0 +1,37 @@
+// Slides slide in from the right and out to the left
+@mixin sliding-curslide()
+{
+  -webkit-transform: translateX(0); // (iOS) Safari version 8-
+  transform: translateX(0);
+  transition-property: -webkit-transform; // (iOS) Safari version 8-
+  transition-property: transform;
+}
+
+@mixin sliding-newslide()
+{
+  -webkit-transform: translateX(100%); // (iOS) Safari version 8-
+  transform: translateX(100%);
+}
+
+@mixin sliding-oldslide()
+{
+  -webkit-transform: translateX(-100%); // (iOS) Safari version 8-
+  transform: translateX(-100%);
+}
+
+// Slides fade in and out
+@mixin fading-curslide()
+{
+  opacity: 1;
+  transition-property: opacity;
+}
+
+@mixin fading-newslide()
+{
+  opacity: 0;
+}
+
+@mixin fading-oldslide()
+{
+  opacity: 0;
+}
