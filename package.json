@@ -9,6 +9,6 @@
   "author": "B-Lex IT B.V.",
   "license": "MIT",
   "peerDependencies": {
-    "dompack": "0.0.1"
+    "dompack": "^0.0.1"
   }
 }
