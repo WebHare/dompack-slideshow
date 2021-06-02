@@ -1,5 +1,5 @@
 import * as dompack from "dompack";
-import * as swipelistener from "dompack/ui/swipelistener";
+import * as swipelistener from "dompack/browserfix/swipelistener";
 
 /*
   A light-weight slideshow class, based on CSS transitions
